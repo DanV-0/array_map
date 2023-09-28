@@ -1,6 +1,6 @@
 int parsCount=0; //<>//
 int max=50;
-int map[][]=new int[10][5];
+int map[][]=new int[20][5];
 int xPos,yPos;
 void setup()
 {
@@ -33,7 +33,7 @@ void draw()
      }
     }
   }
-  fill(75,25,90);rect(width/2-reSize,height/2+reSize,reSize,reSize);
+  fill(75,25,90);rect(height/2-reSize/2,width/2-reSize/2,reSize,reSize);
 } //<>//
 void keyPressed()
 { 
